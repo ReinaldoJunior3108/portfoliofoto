@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: "signature";
+    src: url("/FunkySignature-Zmgz.otf") format("opentype");
+}
+@layer base {
+    :root {
+        --bg-instagram: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    }
+}
+body{
+    background: #000000;
+}
+.nav__link {
+    position: relative;
+    text-shadow: 0 2px 4px rgba(0,0,0);
+    font-family: "Montserrat",  sans-serif;
+    font-weight: 500;
+}
+
+.nav__link::before {
+    content: '';
+    bottom: -.2rem;
+    left: 0;
+    width: 100%;
+    position: absolute;
+    border-bottom: 2px solid #B49A6C;
+    transition: all 0.3s ease;
+    transform: scaleX(0);
+}
+
+.nav__link:hover:before {
+    transform: scaleX(1);
+}
+.instagram:hover {
+background:radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+
+}
