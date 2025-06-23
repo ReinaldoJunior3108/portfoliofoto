@@ -15,7 +15,7 @@ export default function Hero(){
                     <div className={`bg-[#B49A6C] md:bg-transparent w-fit md:w-full fixed md:relative`}>
                         <button className={` fixed md:hidden top-3 left-3 bg-[#B49A6C] p-1.5 fill-white rounded-[8px]`}
                         onClick={abrirmenu}
-                        ><svg viewBox="0 0 100 80" width="20" height="20">
+                        ><svg viewBox="0 0 100 80" width="20" height="20" className={`transition-all duration-300 ${!menuHamburguer ? "rotate-0" : "rotate-90"}`}>
                             <rect width="100" height="20"></rect>
                             <rect y="30" width="100" height="20"></rect>
                             <rect y="60" width="100" height="20"></rect>
