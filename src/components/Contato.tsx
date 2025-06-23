@@ -3,8 +3,8 @@ import { FaInstagram } from "react-icons/fa6";
 import { CiMail } from "react-icons/ci";
 export default function Contato(){
     return(
-        <div className="h-dvh flex flex-col justify-evenly items-center bg-[url(/IMG_9719.jpg)] bg-cover bg-center">
-            <h1 className="font-[Montserrat] font-bold text-white text-[32px]">Gostou do que viu? Vamos conversar.</h1>
+        <div className="h-dvh flex flex-col justify-evenly items-center bg-[url(https://ik.imagekit.io/pagnofotografia/IMG_9719.jpg)] bg-cover bg-center" id="contato">
+            <h1 className="font-[Montserrat] font-bold text-white text-center text-[32px]">Gostou do que viu? Vamos conversar.</h1>
             <div className="flex justify-evenly items-center w-dvw">
                 <div className="relative">
                     <a

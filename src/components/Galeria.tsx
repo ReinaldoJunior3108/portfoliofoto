@@ -6,7 +6,7 @@ export default function Galeria() {
         setGaleria(!galeria);
     }
     return (
-        <div className="w-[80dvw] mt-20 m-auto flex flex-col items-center justify-center gap-10 text-white">
+        <div className="w-[80dvw] mt-20 m-auto flex flex-col items-center justify-center gap-10 text-white" id="galeria">
             <h1 className="font-[Montserrat] font-bold text-[32px]">GALERIA</h1>
             <button
                 className="relative bg-[#B49A6C] hover:bg-[#917c61] min-h-[3.5rem] w-[15rem] text-white font-[Poppins] font-bold text-[18px] p-[0.8rem_3rem] rounded-full overflow-hidden"
